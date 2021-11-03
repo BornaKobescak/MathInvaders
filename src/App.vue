@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <AddInput msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AddInput from './components/AddInput.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AddInput
   }
 }
 </script>
@@ -26,3 +26,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+
